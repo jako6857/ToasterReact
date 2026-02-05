@@ -8,12 +8,12 @@ function App() {
     <div style={{ padding: "40px" }}>
       <h1>Toast Notifications</h1>
 
-      <button onClick={() => showToast("Success! Det virkede 🎉", "success")}>
+      <button onClick={() => showToast("Success! Det virkede ", "success")}>
         Show Success
       </button>
 
       <button
-        onClick={() => showToast("Advarsel! Noget skal tjekkes ⚠️", "warning")}
+        onClick={() => showToast("Advarsel! Noget skal tjekkes ", "warning")}
         style={{ marginLeft: "10px" }}
       >
         Show Warning
